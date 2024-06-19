@@ -1,0 +1,32 @@
+@media screen and (min-width:620px) and (max-width:1279px){
+.header {
+	margin-top: 100px;
+	width: 100%;
+}
+.section_about {
+	height: 396px;
+	width: 100%;
+	grid-template-columns: minmax(325px, 1fr) 245px;
+	grid-template-rows: 60px 295px;
+	justify-content: center;
+	justify-items: start;
+	align-content: center;
+	row-gap: 8px;
+	column-gap: 20px;
+	margin-top: 71px;
+	margin-bottom: 15px;
+}
+.container {
+    max-width: 1279px;
+    min-width: 620px;
+}
+.section_projects {
+	width: 100%;
+}
+.section_skills {
+	margin: 0 auto;
+}
+.about_text {
+	min-width: 295px;
+}
+}
